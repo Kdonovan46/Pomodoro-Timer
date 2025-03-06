@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1><span class="typing-text"></span><span class="cursor">|</span></h1>
+        <div class="sleeping-person" style="display: none;">
+            <div class="person">
+                <div class="head"></div>
+                <div class="body"></div>
+                <div class="arm"></div>
+                <div class="legs"></div>
+                <div class="zzz">z</div>
+            </div>
+        </div>
+        <div class="timer">
+            <span id="minutes">25</span>:<span id="seconds">00</span>
+        </div>
+        <div class="controls">
+            <button id="startBtn">Start</button>
+            <button id="stopBtn">Stop</button>
+            <button id="restBtn">Rest</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
